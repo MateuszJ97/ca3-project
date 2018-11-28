@@ -8,16 +8,16 @@ public class ListTest{
 
 		// Test 1: Add 10 items to the list - No Max - Dynamic list
 		try{
-			la.add(0,"Bread");
-			la.add(1,"Milk");
-			la.add(2,"Cereal");
-			la.add(3,"Coffee");
-			la.add(4,"Sugar");
-			la.add(5,"Beer");
-			la.add(6,"Chicken");
-			la.add(7,"Rice");
-			la.add(8,"Wine");
-			la.add(9,"Cakes");
+			la.add(0,"B");
+			la.add(1,"M");
+			la.add(2,"C");
+			la.add(3,"C");
+			la.add(4,"S");
+			la.add(5,"B");
+			la.add(6,"C");
+			la.add(7,"B");
+			la.add(8,"W");
+			la.add(9,"C");
 		}
 		catch(ListIndexOutOfBoundsException e)
 		{
@@ -56,8 +56,8 @@ public class ListTest{
 
 		// Test 4: Try to add another item - should be room now
 		try{
-			System.out.println("Attempting to add Tea at index 100");
-			la.add(100, "Tea");
+			System.out.println("Attempting to add TEST at index 100");
+			la.add(100, "TEST");
 		}
 		catch(ListIndexOutOfBoundsException e)
 		{
